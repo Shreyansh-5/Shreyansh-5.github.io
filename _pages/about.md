@@ -26,3 +26,9 @@ I'm Shreyansh, and I hold a Master of Science in Regulatory Affairs from <a href
 In May 2021, I engaged in the <a href='https://www.gtec.at/spring-school-2021/'>BCI & Neurotechnology Spring School 2021</a> organized by g.tec Medical Engineering GmbH, immersing myself in cutting-edge advancements. My active involvement led to a feature on their <a href='https://www.gtec.at/quote/shreyansh-sheth/'>website</a>. Later, in October 2021, I contributed to the Siemens Healthineers Innovation Think Tank, collaborating on innovative solutions to prevalent healthcare challenges, blending technical prowess with non-technical methodologies.
 
 Additionally, I'm constantly honing new skills—I'm presently delving into Machine Learning and Project Management—or you might catch me engrossed in a game of Chess ♟️.
+
+<!-- LinkedIn Badge Script Below -->
+<div class="linkedin-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="vertical" data-vanity="yourLinkedInProfileURL"></div>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<!-- Remaining content -->
