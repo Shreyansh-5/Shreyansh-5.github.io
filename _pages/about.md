@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.google.com'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Master's in Biomedical Engineering and Master's in Regulatory Affairs.
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey there! 👋 I'm Shreyansh, a Biomedical Engineer and Regulatory Affairs Professional passionate about leveraging technology to enhance healthcare.
+Hey there! 👋 I'm Shreyansh, and I am a Neuro-rehabilitation enthusiast. I graduated with Master of Science in Regulatory Affairs from <a href='https://cps.northeastern.edu/program/master-of-science-in-regulatory-affairs-toronto/'>Northeastern University - Toronto Campus</a> and with a Master of Technology in Biomedical Engineering from <a href='https://vit.ac.in/schools/school-of-electronics-engineering'>Vellore Institute of Technology, Vellore</a>.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
