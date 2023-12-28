@@ -2,11 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's in Biomedical Engineering and Master's in Regulatory Affairs.
+subtitle: MS, MTech, BEng
 
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
