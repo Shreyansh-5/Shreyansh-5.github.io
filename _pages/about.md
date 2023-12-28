@@ -7,6 +7,7 @@ subtitle: Master's in Biomedical Engineering and Master's in Regulatory Affairs.
 profile:
   align: right
   image: prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -17,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey there! 👋 I'm Shreyansh, and I am a Neuro-rehabilitation enthusiast. I graduated with Master of Science in Regulatory Affairs from <a href='https://cps.northeastern.edu/program/master-of-science-in-regulatory-affairs-toronto/'>Northeastern University - Toronto Campus</a> and with a Master of Technology in Biomedical Engineering from <a href='https://vit.ac.in/schools/school-of-electronics-engineering'>Vellore Institute of Technology, Vellore</a>.
+Hey there! 👋 I'm Shreyansh, and I hold a Master of Science in Regulatory Affairs from <a href='https://cps.northeastern.edu/program/master-of-science-in-regulatory-affairs-toronto/'>Northeastern University - Toronto Campus</a> and a Master of Technology in Biomedical Engineering from <a href='https://vit.ac.in/schools/school-of-electronics-engineering'>Vellore Institute of Technology, Vellore</a>. I'm deeply invested in advancing the realms of Neuroscience and Rehabilitation Engineering through dedicated research. My passion lies in unraveling the intricacies of neurorehabilitation technology, aiming not just to comprehend but to actively enhance its capabilities.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In May 2021, I engaged in the BCI & Neurotechnology Spring School organized by g.tec Medical Engineering GmbH, immersing myself in cutting-edge advancements. My active involvement led to a feature on their <a href='https://www.gtec.at/quote/shreyansh-sheth/'>website</a>. Later, in October 2021, I contributed to the Siemens Healthineers Innovation Think Tank, collaborating on innovative solutions to prevalent healthcare challenges, blending technical prowess with non-technical methodologies.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm actively seeking research opportunities within Biomedical Engineering, with a keen focus on Neurotechnology, Rehabilitation Engineering, and Embedded Systems. These specific areas captivate my interest and drive me to contribute meaningfully to their advancements. Additionally, I'm constantly honing new skills—I'm presently delving into Machine Learning and Project Management—or you might catch me engrossed in a game of Chess ♟️.
