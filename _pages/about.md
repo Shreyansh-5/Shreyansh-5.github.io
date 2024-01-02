@@ -18,8 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <div style="text-align: justify">
-Hey there! 👋
-
+Hey there! 👋<br>
 I'm Shreyansh, and I hold a Master of Science in Regulatory Affairs from <a href='https://cps.northeastern.edu/program/master-of-science-in-regulatory-affairs-toronto/'>Northeastern University - Toronto Campus</a> and a Master of Technology in Biomedical Engineering from <a href='https://vit.ac.in/schools/school-of-electronics-engineering'>Vellore Institute of Technology, Vellore</a>. I'm deeply invested in advancing the realms of Neuroscience and Rehabilitation Engineering through dedicated research. My passion lies in unraveling the intricacies of neuro-rehabilitation technology, aiming not just to comprehend but to actively enhance its capabilities. </div>
 <br>
 <div style="text-align: justify"> <b> I'm actively pursuing both full-time positions and internships. I am flexible regarding relocation and open to roles beyond robotics. My priority lies in tackling significant challenges! Feel free to view my resume here. To connect, don't hesitate to reach out via email at <a href='mailto:shreyanshsheth5@gmail.com'>shreyanshsheth5@gmail.com</a> or through LinkedIn! </b> </div>
