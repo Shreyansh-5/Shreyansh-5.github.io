@@ -119,7 +119,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: In progress
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -177,7 +177,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false #make it true to include blog links
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
