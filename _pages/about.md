@@ -29,8 +29,3 @@ I'm Shreyansh, and I hold a Master of Science in Regulatory Affairs from <a href
 <div style="text-align: justify"> Additionally, I'm constantly honing new skills—I'm presently delving into Machine Learning and Project Management—or you might catch me engrossed in a game of Chess ♟️. </div>
 <br>
 <br>
-<!-- LinkedIn Badge Script Below -->
-<div class="linkedin-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="vertical" data-vanity="yourLinkedInProfileURL"></div>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-<!-- Remaining content -->
