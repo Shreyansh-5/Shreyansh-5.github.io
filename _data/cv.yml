@@ -11,7 +11,7 @@
   contents:
     - title: Master of Science in Regulatory Affairs
       institution: Northeastern University, Toronto, Canada
-      year: 2021 - 2023
+      year: Sept. 2021 - July 2023
       description:
         - Description 1.
         - Description 2.
@@ -21,49 +21,47 @@
             - Sub-description 2.
     - title: Master of Technology in Biomedical Engineering
       institution: Vellore Institute of Technology, Vellore, India
-      year: 2020 - 2022
+      year: July 2020 - July 2022
       description:
         - Description 1.
         - Description 2.
    - title: Bachelor of Engineering in Biomedical Engineering
       institution: Government Engineering College, Gandhinagar, India
-      year: 2016 - 2020
+      year: Aug. 2016 - Aug. 2020
       description:
         - Description 1.
         - Description 2.
 
-- title: Experience
+- title: Relevant Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Regulatory Affairs Team Leader (XN-Project Leader)
+      institution: Breegi Scientific (Remote, US)
+      year: April - July 2023
+      description:
+        - Orchestrated clinical trials Phase-I for a neonatal incubator by leading a group of five.
+        - Demonstrated adept project management and coordination, achieving the project delivery within a challenging deadline.
+        - Developed Consent Forms, Case Report Forms, and Investigator’s Brochure in accordance with ISO 14155 & ICH guidelines.
+          
+    - title: Regulatory Affairs Specialist
+      institution: Neuro-Spinal Innovation Inc. (Mississauga, ON)
+      year: June - Sept. 2022
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Teaching Assistant and Peer Mentor
+      institution: Northeastern University (Toronto, ON)
+      year: Sept. 2021 to April 2022
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: International Institute of Information Technology (Raipur, India)
+      year: May to Aug. 2021
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Biomedical Engineering Technologist
+      institution: Sterling Hospitals (Ahmedabad, India)
+      year: June to Sept. 2019
 
 - title: Open Source Projects
   type: time_table
