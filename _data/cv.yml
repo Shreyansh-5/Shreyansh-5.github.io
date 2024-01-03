@@ -2,18 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Shreyansh Sheth
+    - name: Profile Summary
+      value: A proficient Biomedical Engineer with dual master's degrees and a demonstrated history of excelling in hospital environments and the medical device industry. I'm passionate about leveraging my broad skill set to make significant contributions to the advancements in medical science and technology.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Regulatory Affairs
+      institution: Northeastern University, Toronto, Canada
+      year: 2021-2023
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +19,15 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master of Technology in Biomedical Engineering
+      institution: Vellore Institute of Technology, Vellore, India
+      year: 2020-2022
+      description:
+        - Description 1.
+        - Description 2.
+   - title: Bachelor of Engineering in Biomedical Engineering
+      institution: Government Engineering College, Gandhinagar, India
+      year: 2016-2020
       description:
         - Description 1.
         - Description 2.
