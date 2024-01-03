@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Shreyansh Sheth",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shreyanshsheth5@gmail.com",
+    "phone": "+1(647)864-6740",
+    "url": "https://Shreyansh-5.github.io",
+    "summary": "A highly skilled Regulatory Affairs professional with a Master of Science in Regulatory Affairs and a Master of Technology in Biomedical Engineering. Proven track record of working in the hospital setting and medical device industry. Strong desire to contribute to the field of medical science and technology through utilizing my extensive skill set.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": " - ",
+      "postalCode": "M1V 1R1",
+      "city": "Toronto",
+      "countryCode": "Canada",
+      "region": "Ontario"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Shreyansh Sheth",
+        "url": "https://www.linkedin.com/shreyansh-i"
       }
     ]
   },
