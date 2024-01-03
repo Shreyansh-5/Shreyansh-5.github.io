@@ -11,7 +11,7 @@
   contents:
     - title: Master of Science in Regulatory Affairs
       institution: Northeastern University, Toronto, Canada
-      year: 2021-2023
+      year: 2021 - 2023
       description:
         - Description 1.
         - Description 2.
@@ -21,13 +21,13 @@
             - Sub-description 2.
     - title: Master of Technology in Biomedical Engineering
       institution: Vellore Institute of Technology, Vellore, India
-      year: 2020-2022
+      year: 2020 - 2022
       description:
         - Description 1.
         - Description 2.
    - title: Bachelor of Engineering in Biomedical Engineering
       institution: Government Engineering College, Gandhinagar, India
-      year: 2016-2020
+      year: 2016 - 2020
       description:
         - Description 1.
         - Description 2.
