@@ -6,27 +6,22 @@
     - name: Profile Summary
       value: | 
         A proficient Biomedical Engineer with dual master's degrees and a demonstrated history of excelling in hospital environments and the medical device industry. I'm passionate about leveraging my broad skill set to make significant contributions to the advancements in medical science and technology.
+
 - title: Education
   type: time_table
   contents:
     - title: Master of Science in Regulatory Affairs
       institution: Northeastern University, Toronto, Canada
       year: Sept. 2021 - July 2023
-      description:
-        - Description 1.
-        - Description 2.
+
     - title: Master of Technology in Biomedical Engineering
       institution: Vellore Institute of Technology, Vellore, India
       year: July 2020 - July 2022
-      description:
-        - Description 1.
-        - Description 2.
+
     - title: Bachelor of Engineering in Biomedical Engineering
       institution: Government Engineering College, Gandhinagar, India
       year: Aug. 2016 - Aug. 2020
-      description:
-        - Description 1.
-        - Description 2.
+
 
 - title: Relevant Experience
   type: time_table
@@ -49,53 +44,61 @@
       institution: Northeastern University (Toronto, ON)
       year: Sept. 2021 to April 2022
       description:
-        - Led Risk Management efforts, ensuring adherence to ISO 14971, ISO 24971, and IEC 60601 guidelines for medical devices.
-        - Collaborated with cross-functional teams to guarantee quality, safety, performance, and regulatory compliance.
-        - Conducted device testing with maintaining Design History File (DHF) and Device Master Record (DMR).
+        - Mentored and supported graduate students in academic and social transitions.
+        -	Managed administrative tasks, including scheduling, event coordination, and record-keeping.
+        =	Acted as the Class Delegate, facilitating communication between professor and students.
+
     - title: Research Assistant
       institution: International Institute of Information Technology (Raipur, India)
       year: May to Aug. 2021
       description:
-        - Led Risk Management efforts, ensuring adherence to ISO 14971, ISO 24971, and IEC 60601 guidelines for medical devices.
-        - Collaborated with cross-functional teams to guarantee quality, safety, performance, and regulatory compliance.
-        - Conducted device testing with maintaining Design History File (DHF) and Device Master Record (DMR).
+        - Spearheaded groundbreaking experiment focused on harnessing smartphone sensors for advanced diagnostic applications.
+        - Applied cutting-edge statistical data analysis and signal processing to refine vital physiological data from sensor inputs.
+        = Demonstrated exceptional research acumen by extensively reviewing and synthesizing insights from scientific papers
+
     - title: Biomedical Engineering Technologist
       institution: Sterling Hospitals (Ahmedabad, India)
       year: June to Sept. 2019
       description:
-        - Led Risk Management efforts, ensuring adherence to ISO 14971, ISO 24971, and IEC 60601 guidelines for medical devices.
-        - Collaborated with cross-functional teams to guarantee quality, safety, performance, and regulatory compliance.
-        - Conducted device testing with maintaining Design History File (DHF) and Device Master Record (DMR).
+        - Conducted inspections and testing of various diagnostic, therapeutic, and life support medical equipment.
+        - Performed preventive maintenance and periodic checking of devices, ensuring safety and usability.
+        - Documented and maintained comprehensive records of equipment maintenance activities, adhering to strict standards.
 
 - title: Projects
   type: time_table
   contents:
-    - title: "<a href='https://github.com/alshedivat/al-folio'>al-folio</a>"
-      year: 2015-now
-      description: "A beautiful, simple, clean, and responsive Jekyll theme for academics."
+    - title: Multi-parameter Monitoring Using Smartphones
+      year: 2022
+      description: "This project was my MTech. thesis."
 
-- title: Honors and Awards
+    - title: Stress Identification System
+      year: 2021
+      description: "Presented at ISC-2021 Conference."
+
+    - title: Analysis of P300 ERPs and its PSD
+      year: 2020
+      description: "Presented at ICAICTSEE-2020 Conference."
+
+   - title: Wireless Man-Man Interfacing Rehabilitation System Hypothesis
+      year: 2019-2020
+      description: "Presented at ICSET-2020 Conference."
+
+- title: Certification
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - "Nobel Prize in Physics" 
-        - "Matteucci Medal"
-    - year: 2029
+        - "Tri-Council Policy Statement (TCPS-2)" 
+    - year: 2020
       items: 
-        - "Max Planck Medal"
+        - "Human Anatomy Specialization"
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Neuroscience
+    - title: Rehabilitation Engineering
+    - title: Embedded System
 
 - title: Other Interests
   type: list
