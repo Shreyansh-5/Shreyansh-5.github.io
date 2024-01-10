@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lower Limb Exoskeleton for Scissoring Gait
-description: **A therapeutic approach for scissoring gait in kids with cerebral palsy.**
+description: A therapeutic approach for scissoring gait in kids with cerebral palsy.
 img: assets/img/12.jpg
 importance: 1
 category: work
