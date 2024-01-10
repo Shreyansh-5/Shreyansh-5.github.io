@@ -9,8 +9,15 @@ related_publications:
 ---
 
 
+
 **Neural Pathways in Cerebral Palsy: Understanding Upper Motor Neurons and Movement Impairments** <br>
 <div style="text-align: justify">Activation of Upper Motor Neurons within the Pre-central Gyrus, serving as the Primary Motor Cortex for movement, initiates the process. These neurons' axons pass through the Internal Capsule, and the axons passing through the posterior limb of the internal capsule are responsible for movements below the neck. In cases of cerebral palsy, which is linked to issues related to upper motor neurons, the resulting paralysis primarily affects the ability to perform movements rather than directly impacting the muscles. This lack of movement leads to muscle weakness and spasticity due to disuse, contributing to a Scissoring GAIT in such instances.
+</div>
+<br>
+
+
+**Proposed Hypothesis** <br>
+<div style="text-align: justify">A wearable device operated by a therapist to facilitate controlled movement. A device, designed from robust materials, that aims to withstand the patient's weight and pressure while effectively prompting movement in the lower limbs. Additionally, engineering it to provide the necessary support to the patient's back with the technology will significantly reduce the risk of falling during movement sessions. Allowing the therapist to oversee and control the device, will offer a tailored approach to assist with gait correction and stability, potentially enhancing mobility and confidence for young patients.
 </div>
 <br>
 
