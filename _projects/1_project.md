@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Lower Limb Exoskeleton for Scissoring Gait
+description: A prototype
 img: assets/img/12.jpg
 importance: 1
 category: work
