@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Lower Limb Exoskeleton for Scissoring Gait
-description: A therapeutic approach for scissoring gait in kids with cerebral palsy.
+description: (A therapeutic approach for scissoring gait in kids with cerebral palsy.)
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications:
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+
+**Neural Pathways in Cerebral Palsy: Understanding Upper Motor Neurons and Movement Impairments**
+Activation of Upper Motor Neurons within the Pre-central Gyrus, serving as the Primary Motor Cortex for movement, initiates the process. These neurons' axons pass through the Internal Capsule, and the axons passing through the posterior limb of the internal capsule are responsible for movements below the neck. In cases of cerebral palsy, which is linked to issues related to upper motor neurons, the resulting paralysis primarily affects the ability to perform movements rather than directly impacting the muscles. This lack of movement leads to muscle weakness and spasticity due to disuse, contributing to a Scissoring GAIT in such instances.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
