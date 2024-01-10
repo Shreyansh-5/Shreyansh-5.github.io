@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Pattern Recognition in ECG Signals through Benford's Law
+description: (Exploring the Application of Benford's Law as a Novel Analytical Tool for Assessing ECG Signal Integrity and Anomalies.)
 img: assets/img/3.jpg
 importance: 2
 category: work
