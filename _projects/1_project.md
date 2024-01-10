@@ -11,8 +11,8 @@ related_publications:
 
 **Neural Pathways in Cerebral Palsy: Understanding Upper Motor Neurons and Movement Impairments**
 <div style="text-align: justify">Activation of Upper Motor Neurons within the Pre-central Gyrus, serving as the Primary Motor Cortex for movement, initiates the process. These neurons' axons pass through the Internal Capsule, and the axons passing through the posterior limb of the internal capsule are responsible for movements below the neck. In cases of cerebral palsy, which is linked to issues related to upper motor neurons, the resulting paralysis primarily affects the ability to perform movements rather than directly impacting the muscles. This lack of movement leads to muscle weakness and spasticity due to disuse, contributing to a Scissoring GAIT in such instances.</div>
-
-
+<br>
+<br>
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
