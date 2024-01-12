@@ -21,6 +21,12 @@ related_publications:
 <br>
 
 
+**Implementation** <br>
+<div style="text-align: justify">In this setup, the Arduino serves as the central controller, overseeing the operation of Servo motors designed for rotational control. Positioned strategically at each joint's inner side, these motors facilitate controlled movement. Under the Arduino's direction, these motors rotate, prompting the connected components of the exoskeleton to induce specific movements in the patient's limbs. The exoskeleton-body interface is integral, acting as a restraint against unnecessary movements while providing support to the patient. This approach, blending basic control mechanisms with biomechanics principles, demonstrates notable potential for precise modulation of limb movements in therapeutic contexts. It is responsive to switches for control. When the Forward switch is activated, all servo motors synchronize to generate a rhythmic pattern, aiding the patient in walking forward. Likewise, activating the Backward switch initiates a coordinated motion, facilitating backward movement for the patient.
+</div>
+<br>
+
+
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
