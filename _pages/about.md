@@ -25,6 +25,6 @@ I'm Shreyansh, and I hold a Master of Science in Regulatory Affairs from <a href
 <br>
 <div style="text-align: justify"> In May 2021, I engaged in the <a href='https://www.gtec.at/spring-school-2021/'>BCI & Neurotechnology Spring School 2021</a> organized by g.tec Medical Engineering GmbH, immersing myself in cutting-edge advancements. My active involvement led to a feature on their <a href='https://www.gtec.at/quote/shreyansh-sheth/'>website</a>. Later, in October 2021, I contributed to the Siemens Healthineers Innovation Think Tank, collaborating on innovative solutions to prevalent healthcare challenges, blending technical prowess with non-technical methodologies. </div>
 <br>
-<div style="text-align: justify"> Additionally, When I'm not busy with different things, you might spot me planning my next move on a chessboard, untangling the colors of a Rubik's Cube, diving into audiobooks to learn new stuff, or trying my hand at playing the piano. </div>
+<div style="text-align: justify"> Additionally, when I'm not busy with different things, you might spot me planning my next move on a chessboard, untangling the colors of a Rubik's Cube, diving into audiobooks to learn new stuff, or trying my hand at playing the piano. </div>
 <br>
 <br>
