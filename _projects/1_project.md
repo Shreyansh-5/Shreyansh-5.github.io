@@ -36,7 +36,9 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 
 **Circuit Design** <br>
 <div style="text-align: justify">Here, Proteus 8 professional Circuit Design Suite is used for electronics CAD design. I installed libraries for Arduino board and Servo motors from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a>.
+</div>
 <br>
+
 
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
