@@ -22,7 +22,7 @@ related_publications:
 
 
 **Implementation** <br>
-<div style="text-align: justify;"> In this proposed solution, the integration of a microcontroller and angle-controllable motors constitutes the core of the circuit. The selection of Arduino as the controller and servo motors for rotational control establishes a robust foundation for this innovative system.
+<div style="text-align: justify"> In this proposed solution, the integration of a microcontroller and angle-controllable motors constitutes the core of the circuit. The selection of Arduino as the controller and servo motors for rotational control establishes a robust foundation for this innovative system.
 <br>
 Strategically positioned at each joint's lateral side, the servo motors align with the angles formed by those joints. Programmed through the Arduino board, these motors execute controlled rotations, translating into corresponding movements in the patient's limbs through attached shafts. The system's structure is significant, serving to restrict unnecessary movements and provide essential support to the patient.
 <br>
@@ -30,6 +30,12 @@ Control of this system is facilitated through switches, offering a user-friendly
 <br>
 To implement this circuit effectively, a comprehensive gait analysis of the patient is required. This analysis aids in determining the angles of the patient's lower limb joints, crucial for configuring the servo motors during the programming phase. The rotation patterns are adjusted based on the direction of movement. This approach, combining biomechanics principles with advanced control mechanisms, holds substantial promise for precise modulation of limb movements in therapeutic applications.
 </div>
+<br>
+
+
+
+**Circuit Design** <br>
+<div style="text-align: justify">Here, Proteus 8 professional Circuit Design Suite is used for electronics CAD design. I installed libraries for Arduino board and Servo motors from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a>.
 <br>
 
 
