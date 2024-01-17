@@ -2,7 +2,7 @@
 layout: page
 title: Lower Limb Exoskeleton for Scissoring Gait
 description: (A therapeutic approach for scissoring gait in kids with cerebral palsy.)
-img: assets/img/12.jpg
+img: https://content.iospress.com/media/thc/2017/25-S1/thc-25-S1-thc1330/thc-25-thc1330-g001.jpg
 importance: 1
 category: work
 related_publications:
@@ -56,12 +56,13 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: https://www.bioworld.com/ext/resources/BMT-source/2022/04-26-Able-Exoskeleton.png?1651008872 
+    # /assets/img/12.jpg
     ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://www.bioworld.com/ext/resources/BMT-source/2022/04-26-Able-Exoskeleton.png?1651008872" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
