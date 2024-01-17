@@ -2,7 +2,7 @@
 layout: page
 title: Lower Limb Exoskeleton for Scissoring Gait
 description: (A therapeutic approach for scissoring gait in kids with cerebral palsy.)
-img: assets/img/12.jpg
+img: https://www.bioworld.com/ext/resources/BMT-source/2022/04-26-Able-Exoskeleton.png?1651008872
 importance: 1
 category: work
 related_publications:
