@@ -24,7 +24,7 @@ related_publications:
 **Implementation** <br>
 <div style="text-align: justify"> In this proposed solution, the integration of a microcontroller and angle-controllable motors constitutes the core of the circuit. The selection of Arduino as the controller and servo motors for rotational control establishes a robust foundation for this innovative system.
 <br>
-Strategically positioned at each joint's lateral side, the servo motors align with the angles formed by those joints. Programmed through the Arduino board, these motors execute controlled rotations, translating into corresponding movements in the patient's limbs through attached shafts. The system's structure is significant, serving to restrict unnecessary movements and provide essential support to the patient.
+Strategically positioned at each joint's lateral side, the servo motors align with the angles formed by those joints. Programmed through the Arduino board, these motors execute controlled rotations, translating into corresponding movements in the patient's limbs through attached shafts. The system's structure is significant, as it serves to restrict unnecessary movements and provide essential support to the patient.
 <br>
 Control of this system is facilitated through switches, offering a user-friendly interface. For instance, activating the Forward switch prompts a synchronized rotation of all servo motors, generating a rhythmic pattern conducive to forward walking for the patient. Similarly, engaging the Backward switch initiates a coordinated motion, facilitating backward movement.
 <br>
