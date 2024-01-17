@@ -2,7 +2,7 @@
 layout: page
 title: Pattern Recognition in ECG Signals through Benford's Law
 description: (Exploring the Application of Benford's Law as a Novel Analytical Tool for Assessing ECG Signal Integrity and Anomalies.)
-img: assets/Project2/benss.png
+img: assets/img/Project2/benss.png
 importance: 2
 category: work
 giscus_comments: true
