@@ -35,7 +35,11 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 
 
 **Circuit Design** <br>
-<div style="text-align: justify">Here, Proteus 8 professional Circuit Design Suite is used for electronics CAD design. I installed libraries for Arduino board and Servo motors from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a>.
+<div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a> to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
+<br>
+Within the schematic diagram, the Arduino Uno functions as the central control unit. The servo motors, crucial in the exoskeleton's joints, connect power wires to an appropriate source, ground wires to the Arduino's ground, and control or PWM wires to the Arduino's PWM pins. These pins allow the Arduino to send precise control signals, dictating desired angular positions. With a servo library, the Arduino Uno generates accurate PWM signals for smooth servo motor movements. A shared ground connection ensures stable voltage, aiding precise signal communication. This configuration enables the Arduino Uno to command the servo motors effectively.
+<br>
+For the mini prototype, an SG90 micro servo is used, meeting initial requirements despite limitations in torque, voltage, and angular Range of Motion (ROM). However, it's crucial to note that the full exoskeleton requires high-performance servo motors like the Super300 series, offering increased torque for optimal functionality and robust support in intricate movements.
 </div>
 <br>
 
