@@ -24,9 +24,12 @@ related_publications:
 **Implementation** <br>
 <div style="text-align: justify"> In this proposed solution, the integration of a microcontroller and angle-controllable motors constitutes the core of the circuit. The selection of Arduino as the controller and servo motors for rotational control establishes a robust foundation for this innovative system.
 <br>
+<br>
 Strategically positioned at each joint's lateral side, the servo motors align with the angles formed by those joints. Programmed through the Arduino board, these motors execute controlled rotations, translating into corresponding movements in the patient's limbs through attached shafts. The system's structure is significant, as it serves to restrict unnecessary movements and provide essential support to the patient.
 <br>
+<br>
 Control of this system is facilitated through switches, offering a user-friendly interface. For instance, activating the Forward switch prompts a synchronized rotation of all servo motors, generating a rhythmic pattern conducive to forward walking for the patient. Similarly, engaging the Backward switch initiates a coordinated motion, facilitating backward movement.
+<br>
 <br>
 To implement this circuit effectively, a comprehensive gait analysis of the patient is required. This analysis aids in determining the angles of the patient's lower limb joints, crucial for configuring the servo motors during the programming phase. The rotation patterns are adjusted based on the direction of movement. This approach, combining biomechanics principles with advanced control mechanisms, holds substantial promise for precise modulation of limb movements in therapeutic applications.
 </div>
@@ -37,7 +40,9 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 **Circuit Design** <br>
 <div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a> to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
 <br>
+<br>
 Within the schematic diagram, the Arduino Uno functions as the central control unit. The servo motors, crucial in the exoskeleton's joints, connect power wires to an appropriate source, ground wires to the Arduino's ground, and control or PWM wires to the Arduino's PWM pins. These pins allow the Arduino to send precise control signals, dictating desired angular positions. With a servo library, the Arduino Uno generates accurate PWM signals for smooth servo motor movements. A shared ground connection ensures stable voltage, aiding precise signal communication. This configuration enables the Arduino Uno to command the servo motors effectively.
+<br>
 <br>
 For the mini prototype, an SG90 micro servo is used, meeting initial requirements despite limitations in torque, voltage, and angular Range of Motion (ROM). However, it's crucial to note that the full exoskeleton requires high-performance servo motors like the Super300 series, offering increased torque for optimal functionality and robust support in intricate movements.
 </div>
