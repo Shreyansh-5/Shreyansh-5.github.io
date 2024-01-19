@@ -2,8 +2,8 @@
 layout: page
 title: Analyzing P300 Signals- Unraveling Insights and Potential Applications - A Review
 description: a project that redirects to another website
-img: https://static.wixstatic.com/media/c18aef_1977aea126fc4880b88c1a9611fce601~mv2.jpg/v1/fill/w_640,h_350,al_c,lg_1,q_80,enc_auto/c18aef_1977aea126fc4880b88c1a9611fce601~mv2.jpg
-redirect: https://unsplash.com
+img: assets/img/Project3/Thumb3.jpg
+redirect: https://icaictsee.unwe.bg/past-conferences/ICAICTSEE-2020.pdf#page=58
 importance: 3
 category: work
 ---
