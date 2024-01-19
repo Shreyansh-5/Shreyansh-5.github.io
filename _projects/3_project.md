@@ -2,7 +2,7 @@
 layout: page
 title: Analyzing P300 Signals- Unraveling Insights and Potential Applications - A Review
 description: a project that redirects to another website
-img: http://learn.neurotechedu.com/images/erp/Figure-1-ERP-waveform.png
+img: https://en.m.wikipedia.org/wiki/File:ComponentsofERP.svg
 redirect: https://unsplash.com
 importance: 3
 category: work
