@@ -55,7 +55,7 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
     </div>
 </div>
 <div class="caption">
-    Circuit Design 
+    <b> Circuit Design
 </div>
 
 You can also put regular text between your rows of images.
