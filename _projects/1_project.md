@@ -38,6 +38,16 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 
 
 **Circuit Design** <br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Project1/Proteus-Circuit-Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <b> Fig. 1: Circuit Design </b>
+</div>
+
 <div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a> to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
 <br>
 <br>
@@ -48,15 +58,6 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 </div>
 <br>
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Project1/Proteus-Circuit-Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    <b> Circuit Design </b>
-</div>
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
