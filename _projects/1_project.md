@@ -67,9 +67,10 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 <details>
   <summary>Click here to reveal the code.</summary>
 
-<pre>
+{% raw %}
 
-#include &lt;Servo.h&gt;
+```cpp
+#include <Servo.h>
 
 // Define servo objects for each joint
 Servo RightHip, RightKnee, RightAnkle, LeftHip, LeftKnee, LeftAnkle;
@@ -240,5 +241,7 @@ void performStandStill() {
   delay(500); // Must adjust delay based on requirements
 }
 
-</pre>
+```
+
+{% endraw %}
 </details>
