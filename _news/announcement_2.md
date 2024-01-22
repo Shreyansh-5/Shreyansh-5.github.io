@@ -8,6 +8,14 @@ related_posts: false
 
 **🚀 Excited to share my recent achievement! 🎓💼**
 
+<br>
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/Graduate/DigiDegreeSS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+<br>
+
 ***
 <br>
 <div style="text-align: justify">I am thrilled to announce that I have graduated with a Master's degree in Regulatory Affairs from Northeastern University - Toronto campus, following the completion of my Master's degree in Biomedical Engineering from Vellore Institute of Technology last year. I am eager to apply my knowledge and passion to contribute to a dynamic organization.</div>
@@ -20,6 +28,20 @@ related_posts: false
 <br>
 <div style="text-align: justify">I would like to express my sincere gratitude to all the mentors and professors who have supported me throughout this journey, including Dr. Peivand, Dr. Anthony Alsayed, and Dr. Ali Azizi. With the right opportunity, I am confident that I will be able to make a positive contribution and achieve success.</div>
 <br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Graduate/01.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Graduate/02.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Graduate/03.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left, Convocation Ceremony. Middle, with Dr. Anthony Alsayed. Right, with Dr. Peivand Pirouzi.
 ***
 
 **Something that I'd love to quote:**
