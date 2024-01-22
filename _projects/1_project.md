@@ -63,10 +63,6 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 </div>
 <br>
 
-
-<details>
-  <summary>Click here to reveal the code.</summary>
-
 {% raw %}
 
 ```cpp
