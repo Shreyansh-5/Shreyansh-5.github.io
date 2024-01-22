@@ -40,6 +40,7 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 **Circuit Design** <br>
 <div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a> to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
 <br>
+<br>
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/Project1/Proteus-Circuit-Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -57,22 +58,10 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 <br>
 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+**Arduino Programming** <br>
+<div style="text-align: justify">Click <a href='assets/img/Project1/llex.ino'>here</a> to download the Arduino code. This code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. The delay between servo movements and the angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<br>
 
 
 The code is simple.
@@ -81,14 +70,177 @@ To make images responsive, add `img-fluid` class to each; for rounded corners an
 Here's the code for the last row of images above:
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+```C++
+#include <Servo.h>
+
+// Define servo objects for each joint
+Servo RightHip, RightKnee, RightAnkle, LeftHip, LeftKnee, LeftAnkle;
+
+// Define pins for forward and backward switches
+int ForwardButton = 7;  // Pin for switch 1
+int BackwardButton = 8;  // Pin for switch 2
+
+// Variables to store switch states and joint angles
+int switchState1, switchState2;
+int rh, rk, ra, rt, lh, lk, la, lt;
+
+void setup() {
+  // Attach servo objects to corresponding pins
+  RightHip.attach(3);
+  RightKnee.attach(5);
+  RightAnkle.attach(6);
+  //RightTarsal.attach(7);
+  LeftHip.attach(9);
+  LeftKnee.attach(10);
+  LeftAnkle.attach(11);
+  //LeftTarsal.attach(12);
+
+  // Set switch pins as inputs
+  pinMode(ForwardButton, INPUT);
+  pinMode(BackwardButton, INPUT);
+}
+
+void loop() {
+  // Read switch states
+  switchState1 = digitalRead(ForwardButton);
+  switchState2 = digitalRead(BackwardButton);
+
+  // Perform actions based on switch states
+  if (switchState1 == HIGH) {
+    performForwardWalk();
+  } else if (switchState2 == HIGH) {
+    performBackwardWalk();
+  } else {
+    performStandStill();
+  }
+}
+
+// Function to perform forward walking motion
+void performForwardWalk() {
+  // Right hip forward motion
+  for (rh = 0; rh >= -60; rh -= 1) {
+    RightHip.write(rh);
+    delay(200);
+  }
+
+  // Right knee forward motion
+  for (rk = 0; rk <= 30; rk += 1) {
+    RightKnee.write(rk);
+    delay(200);
+  }
+
+  // Right ankle forward motion
+  for (ra = 0; ra <= 30; ra += 1) {
+    RightAnkle.write(ra);
+    delay(300);
+  }
+
+  // Right hip backward motion
+  for (rh = -60; rh <= 0; rh += 1) {
+    RightHip.write(rh);
+    delay(200);
+  }
+
+  // Right knee backward motion
+  for (rk = 30; rk >= 0; rk -= 1) {
+    RightKnee.write(rk);
+    delay(200);
+  }
+
+  // Right ankle backward motion
+  for (ra = 30; ra >= 0; ra -= 1) {
+    RightAnkle.write(ra);
+    delay(300);
+  }
+
+  // Left hip forward motion
+  for (lh = 0; lh <= 30; lh += 1) {
+    LeftHip.write(lh);
+    delay(200);
+  }
+
+  // Left knee forward motion
+  for (lk = 0; lk <= 30; lk += 1) {
+    LeftKnee.write(lk);
+    delay(200);
+  }
+
+  // Left ankle forward motion
+  for (la = 0; la <= 30; la += 1) {
+    LeftAnkle.write(la);
+    delay(300);
+  }
+
+  // Left hip backward motion
+  for (lh = 30; lh >= 0; lh -= 1) {
+    LeftHip.write(lh);
+    delay(200);
+  }
+
+  // Left knee backward motion
+  for (lk = 30; lk >= 0; lk -= 1) {
+    LeftKnee.write(lk);
+    delay(200);
+  }
+
+  // Left ankle backward motion
+  for (la = 30; la >= 0; la -= 1) {
+    LeftAnkle.write(la);
+    delay(300);
+  }
+}
+
+// Function to perform backward walking motion
+void performBackwardWalk() {
+  // Right hip backward motion
+  for (rh = 0; rh <= 30; rh += 1) {
+    RightHip.write(180 - rh);
+    delay(200);
+  }
+
+  // Right knee backward motion
+  for (rk = 30; rk >= 0; rk -= 1) {
+    RightKnee.write(180 - rk);
+    delay(200);
+  }
+
+  // Right ankle backward motion
+  for (ra = 30; ra >= 0; ra -= 1) {
+    RightAnkle.write(180 - ra);
+    delay(300);
+  }
+
+  // Left hip backward motion
+  for (lh = 30; lh >= 0; lh -= 1) {
+    LeftHip.write(180 - lh);
+    delay(200);
+  }
+
+  // Left knee backward motion
+  for (lk = 30; lk >= 0; lk -= 1) {
+    LeftKnee.write(180 - lk);
+    delay(200);
+  }
+
+  // Left ankle backward motion
+  for (la = 30; la >= 0; la -= 1) {
+    LeftAnkle.write(180 - la);
+    delay(300);
+  }
+}
+
+// Function to keep the exoskeleton in a neutral position
+void performStandStill() {
+  // Code to keep the exoskeleton in a neutral position
+  // Set all servos to a neutral position or a predefined standstill position
+  RightHip.write(90);
+  RightKnee.write(90);
+  RightAnkle.write(90);
+  LeftHip.write(90);
+  LeftKnee.write(90);
+  LeftAnkle.write(90);
+  delay(500); // Must adjust delay based on requirements
+}
+
 ```
 {% endraw %}
