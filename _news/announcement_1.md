@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from Northeastern University with MS in Regulatory Affairs.
+Received the certificate of Managing Conflict of Interest in National Pharmaceutical Systems from WHO. :anatomical_heart:
