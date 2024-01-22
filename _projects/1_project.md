@@ -38,7 +38,7 @@ To implement this circuit effectively, a comprehensive gait analysis of the pati
 
 
 **Circuit Design** <br>
-<div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from [The Engineering Projects](https://www.theengineeringprojects.com/) to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
+<div style="text-align: justify">In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from <a href='https://www.theengineeringprojects.com/'>The Engineering Projects</a> to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
 <br>
 <br>
     <div class="row">
