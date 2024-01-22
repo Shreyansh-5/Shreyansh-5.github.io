@@ -59,7 +59,7 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 
 
 **Arduino Programming** <br>
-<div style="text-align: justify">The Arduino code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. The delay between servo movements and the angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
+<div style="text-align: justify">The Arduino code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. All the delays and angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
 </div>
 <br>
 Here is the Arduino code:
@@ -116,7 +116,7 @@ void performForwardWalk() {
   // Right hip forward motion
   for (rh = 0; rh >= -60; rh -= 1) {
     RightHip.write(rh);
-    delay(200);
+    delay(200); // Must adjust all the delays based on requirement
   }
 
   // Right knee forward motion
@@ -235,7 +235,7 @@ void performStandStill() {
   LeftHip.write(90);
   LeftKnee.write(90);
   LeftAnkle.write(90);
-  delay(500); // Must adjust delay based on requirements
+  delay(500);
 }
 
 ```
