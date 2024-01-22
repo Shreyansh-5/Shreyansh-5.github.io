@@ -64,14 +64,12 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 </div>
 <br>
 
+<details>
+  <summary>Click to expand</summary>
+The code is simple. You can copy the code from here:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```C++
+<pre>
+```arduino
 #include <Servo.h>
 
 // Define servo objects for each joint
@@ -244,4 +242,4 @@ void performStandStill() {
 }
 
 ```
-{% endraw %}
+</pre>
