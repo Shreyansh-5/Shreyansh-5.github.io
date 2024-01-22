@@ -67,6 +67,9 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 <details>
   <summary>Click here to reveal the code.</summary>
 
+<pre>
+```arduino
+
 #include <Servo.h>
 
 // Define servo objects for each joint
@@ -237,3 +240,7 @@ void performStandStill() {
   LeftAnkle.write(90);
   delay(500); // Must adjust delay based on requirements
 }
+
+```
+</pre>
+</details>
