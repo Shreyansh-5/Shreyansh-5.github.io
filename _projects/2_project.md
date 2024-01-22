@@ -5,7 +5,7 @@ description: (Exploring the Application of Benford's Law as a Novel Analytical T
 img: assets/img/Project2/benss.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 pptx_link: /assets/img/Project2/Introductory-Presentation.pptx
 ---
 
