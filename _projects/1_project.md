@@ -6,6 +6,7 @@ img: https://content.iospress.com/media/thc/2017/25-S1/thc-25-S1-thc1330/thc-25-
 importance: 1
 category: work
 related_publications:
+ino_link: assets/img/Project1/llex.ino
 ---
 
 
@@ -59,7 +60,7 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 
 
 **Arduino Programming** <br>
-<div style="text-align: justify">Click <a href='assets/img/Project1/llex.ino'>here</a> to download the Arduino code. This code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. The delay between servo movements and the angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
+<div style="text-align: justify">Click [here]({{ page.pptx_link | relative_url }}) to download the Arduino code. This code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. The delay between servo movements and the angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
 </div>
 <br>
 
