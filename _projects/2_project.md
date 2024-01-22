@@ -6,7 +6,12 @@ img: assets/img/Project2/benss.png
 importance: 2
 category: work
 giscus_comments: true
+pptx_link: /assets/img/Project2/Introductory-Presentation.pptx
 ---
+
+# Introductory Presentation
+
+You can download the introductory presentation PowerPoint file [here]({{ page.pptx_link | relative_url }}).
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
