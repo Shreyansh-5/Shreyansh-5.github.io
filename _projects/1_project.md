@@ -67,8 +67,7 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 <details>
   <summary>Click here to reveal the code.</summary>
 
-{% raw %}
-```arduino
+<pre>
 
 #include <Servo.h>
 
@@ -241,7 +240,5 @@ void performStandStill() {
   delay(500); // Must adjust delay based on requirements
 }
 
-```
-{% endraw %}
+</pre>
 </details>
-
