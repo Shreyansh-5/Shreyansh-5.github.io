@@ -116,67 +116,67 @@ void performForwardWalk() {
   // Right hip forward motion
   for (rh = 0; rh >= -60; rh -= 1) {
     RightHip.write(rh);
-    delay(200); // Must adjust all the delays based on requirement
+    delay(20); // Must adjust all the delays based on requirement
   }
 
   // Right knee forward motion
   for (rk = 0; rk <= 30; rk += 1) {
     RightKnee.write(rk);
-    delay(200);
+    delay(20);
   }
 
   // Right ankle forward motion
   for (ra = 0; ra <= 30; ra += 1) {
     RightAnkle.write(ra);
-    delay(300);
+    delay(30);
   }
 
   // Right hip backward motion
   for (rh = -60; rh <= 0; rh += 1) {
     RightHip.write(rh);
-    delay(200);
+    delay(20);
   }
 
   // Right knee backward motion
   for (rk = 30; rk >= 0; rk -= 1) {
     RightKnee.write(rk);
-    delay(200);
+    delay(20);
   }
 
   // Right ankle backward motion
   for (ra = 30; ra >= 0; ra -= 1) {
     RightAnkle.write(ra);
-    delay(300);
+    delay(30);
   }
 
   // Left hip forward motion
   for (lh = 0; lh <= 30; lh += 1) {
     LeftHip.write(lh);
-    delay(200);
+    delay(20);
   }
 
   // Left knee forward motion
   for (lk = 0; lk <= 30; lk += 1) {
     LeftKnee.write(lk);
-    delay(200);
+    delay(20);
   }
 
   // Left ankle forward motion
   for (la = 0; la <= 30; la += 1) {
     LeftAnkle.write(la);
-    delay(300);
+    delay(30);
   }
 
   // Left hip backward motion
   for (lh = 30; lh >= 0; lh -= 1) {
     LeftHip.write(lh);
-    delay(200);
+    delay(20);
   }
 
   // Left knee backward motion
   for (lk = 30; lk >= 0; lk -= 1) {
     LeftKnee.write(lk);
-    delay(200);
+    delay(20);
   }
 
   // Left ankle backward motion
@@ -191,37 +191,37 @@ void performBackwardWalk() {
   // Right hip backward motion
   for (rh = 0; rh <= 30; rh += 1) {
     RightHip.write(180 - rh);
-    delay(200);
+    delay(20);
   }
 
   // Right knee backward motion
   for (rk = 30; rk >= 0; rk -= 1) {
     RightKnee.write(180 - rk);
-    delay(200);
+    delay(20);
   }
 
   // Right ankle backward motion
   for (ra = 30; ra >= 0; ra -= 1) {
     RightAnkle.write(180 - ra);
-    delay(300);
+    delay(30);
   }
 
   // Left hip backward motion
   for (lh = 30; lh >= 0; lh -= 1) {
     LeftHip.write(180 - lh);
-    delay(200);
+    delay(20);
   }
 
   // Left knee backward motion
   for (lk = 30; lk >= 0; lk -= 1) {
     LeftKnee.write(180 - lk);
-    delay(200);
+    delay(20);
   }
 
   // Left ankle backward motion
   for (la = 30; la >= 0; la -= 1) {
     LeftAnkle.write(180 - la);
-    delay(300);
+    delay(30);
   }
 }
 
