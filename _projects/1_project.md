@@ -6,7 +6,6 @@ img: https://content.iospress.com/media/thc/2017/25-S1/thc-25-S1-thc1330/thc-25-
 importance: 1
 category: work
 related_publications:
-ino_link: assets/img/Project1/llex.ino
 ---
 
 
