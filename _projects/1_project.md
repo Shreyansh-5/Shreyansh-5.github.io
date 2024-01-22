@@ -9,15 +9,15 @@ related_publications:
 ino_link: assets/img/Project1/llex.ino
 ---
 
-# Neural Pathways in Cerebral Palsy: Understanding Upper Motor Neurons and Movement Impairments
+**Neural Pathways in Cerebral Palsy: Understanding Upper Motor Neurons and Movement Impairments**
 
 Activation of Upper Motor Neurons within the Pre-central Gyrus, serving as the Primary Motor Cortex for movement, initiates the process. These neurons' axons pass through the Internal Capsule, and the axons passing through the posterior limb of the internal capsule are responsible for movements below the neck. In cases of cerebral palsy, which is linked to issues related to upper motor neurons, the resulting paralysis primarily affects the ability to perform movements rather than directly impacting the muscles. This lack of movement leads to muscle weakness and spasticity due to disuse, contributing to a Scissoring gait in such instances.
 
-# Proposed Hypothesis
+**Proposed Hypothesis**
 
 A wearable device operated by a therapist to facilitate controlled movement. A device, designed from robust materials, that aims to withstand the patient's weight and pressure while effectively prompting movement in the lower limbs. Additionally, engineering it to provide the necessary support to the patient's back with the technology will significantly reduce the risk of falling during movement sessions. Allowing the therapist to oversee and control the device, will offer a tailored approach to assist with gait correction and stability, potentially enhancing mobility and confidence for young patients.
 
-# Implementation
+**Implementation**
 
 In this proposed solution, the integration of a microcontroller and angle-controllable motors constitutes the core of the circuit. The selection of Arduino as the controller and servo motors for rotational control establishes a robust foundation for this innovative system.
 
@@ -27,7 +27,7 @@ Control of this system is facilitated through switches, offering a user-friendly
 
 To implement this circuit effectively, a comprehensive gait analysis of the patient is required. This analysis aids in determining the angles of the patient's lower limb joints, crucial for configuring the servo motors during the programming phase. The rotation patterns are adjusted based on the direction of movement. This approach, combining biomechanics principles with advanced control mechanisms, holds substantial promise for precise modulation of limb movements in therapeutic applications.
 
-# Circuit Design
+**Circuit Design**
 
 In this electronics CAD design, the Proteus 8 Professional Circuit Design Suite is employed for creating the circuit schematic. Libraries for the Arduino board and Servo motors have been added from [The Engineering Projects](https://www.theengineeringprojects.com/) to facilitate the design process. Six servo motors are designated for controlling rhythmic angular movements in the hip, knee, and ankle joints of both legs, each denoted by initials corresponding to its respective joint.
 
@@ -38,15 +38,13 @@ Within the schematic diagram, the Arduino Uno functions as the central control u
 
 For the mini prototype, an SG90 micro servo is used, meeting initial requirements despite limitations in torque, voltage, and angular Range of Motion (ROM). However, it's crucial to note that the full exoskeleton requires high-performance servo motors like the Super300 series, offering increased torque for optimal functionality and robust support in intricate movements.
 
-# Arduino Programming
+**Arduino Programming**
 
 The Arduino code utilizes the Servo library to control the movements of an exoskeleton's hip, knee, and ankle joints. Six servo motors, each corresponding to a specific joint, are defined, along with pins for two switches responsible for forward and backward movements. The `setup` function initializes the servo motors and switches pins. The `loop` function continuously reads the states of the switches and triggers specific actions based on these states. The code defines three functions: `performForwardWalk`, `performBackwardWalk`, and `performStandStill`. The forward and backward walking motions involve a series of for-loops that incrementally adjust the angles of the servo motors, simulating walking movements. The `performStandStill` function positions all servos at a neutral angle to keep the exoskeleton in a standstill position. The delay between servo movements and the angles must be adjusted based on the desired walking pattern after a thorough gait analysis of the subject to ensure smooth and controlled motions.
 
 <details>
   <summary>Click here to reveal the code.</summary>
-
-<pre>
-```arduino
+{% raw %}
 
 #include <Servo.h>
 
@@ -219,6 +217,5 @@ void performStandStill() {
   delay(500); // Must adjust delay based on requirements
 }
 
-```
-</pre>
+{/% raw %}
 </details>
