@@ -69,7 +69,7 @@ For the mini prototype, an SG90 micro servo is used, meeting initial requirement
 
 <pre>
 
-#include <Servo.h>
+#include &lt;Servo.h&gt;
 
 // Define servo objects for each joint
 Servo RightHip, RightKnee, RightAnkle, LeftHip, LeftKnee, LeftAnkle;
