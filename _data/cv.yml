@@ -5,8 +5,7 @@
       value: Shreyansh Sheth
     - name: Profile Summary
       value: | 
-        A proficient Biomedical Engineer with dual master's degrees and a demonstrated history of excelling in hospital environments and the medical device industry. I'm passionate about leveraging my broad skill set to make significant contributions to the advancements in medical science and technology.
-
+        Dynamic professional with dual master’s degrees in Biomedical Engineering and Regulatory Affairs, with a robust track record in Regulatory Affairs, Biomedical Research, and Project Management. Proven experience in leading teams, navigating complex research and regulatory landscapes, and delivering exceptional results. Committed to leveraging expertise to advance medical solutions.
 - title: Education
   type: time_table
   contents:
@@ -26,20 +25,27 @@
 - title: Relevant Experience
   type: time_table
   contents:
-    - title: Regulatory Affairs Team Leader (XN-Project Leader)
-      institution: Breegi Scientific Inc. (Remote, US)
+    - title: Printing and Quality Assistant 
+      institution: Viva Healthcare (Toronto, ON)
+      year: "Mar. - Dec. '23"
+      description:
+        - Conducted quality control checks, implementing adjustments to uphold the highest standards of accuracy and consistency.
+        - Managed the logistics of incoming and outgoing shipments, optimizing packaging and labeling processes to guarantee efficient and accurate distribution.
+        - Assisted in setting up and operating systems, ensuring precise material loading and fine-tuning settings according to protocols, thereby achieving superior quality and minimizing waste.    
+    - title: Regulatory Affairs Team Leader (co-op)
+      institution: Breegi Scientific Inc. (Boston, US)
       year: "Apr. - July '23"
       description:
-        - Orchestrated clinical trials Phase-I for a neonatal incubator by leading a group of five.
-        - Demonstrated adept project management and coordination, achieving the project delivery within a challenging deadline.
-        - Developed Consent Forms, Case Report Forms, and Investigator’s Brochure in accordance with ISO 14155 & ICH guidelines.
-    - title: Regulatory Affairs Specialist
+        - Led a team of five to expedite Phase-I clinical trials for a neonatal incubator, significantly shortening the submission timeline.
+        - Leveraged exceptional project management and coordination skills to ensure seamless project execution and timely completion.
+        - Designed Consent Forms (ICFs), CRFs, and IB in compliance with ISO 14155 & ICH guidelines, enhancing the submission efficiency.
+    - title: Regulatory Affairs Specialist (intern)
       institution: Neuro-Spinal Innovation Inc. (Mississauga, ON)
-      year: "June - Sept. '22"
+      year: "June '22 - Mar. '23"
       description:
-        - Led Risk Management efforts, ensuring adherence to ISO 14971, ISO 24971, and IEC 60601 guidelines for medical devices.
-        - Collaborated with cross-functional teams to guarantee quality, safety, performance, and regulatory compliance.
-        - Conducted device testing with maintaining Design History File (DHF) and Device Master Record (DMR).
+        - Spearheaded comprehensive risk management and facilitated TÜV testing, ensuring compliance with ISO and IEC standards for medical devices, which enhanced product safety and reliability by about 20%.
+        - Developed and implemented various test methods for the device, meticulously crafted case reports, and authored Standard Operating Procedures (SOPs) to streamline operations and ensure regulatory compliance.
+        - Maintained up-to-date Technical Files and Design Dossiers, thereby leveling-up regulatory approval processes.
     - title: Teaching Assistant and Peer Mentor
       institution: Northeastern University (Toronto, ON)
       year: "Sept. '21 - Apr. '22"
@@ -47,18 +53,16 @@
         - Mentored and supported graduate students in academic and social transitions.
         - Managed administrative tasks, including scheduling, event coordination, and record-keeping.
         - Acted as the Class Delegate, facilitating communication between professor and students.
-
-    - title: Research Assistant
+    - title: Research Assistant (contract)
       institution: International Institute of Information Technology (Raipur, India)
       year: "May - Aug. '21"
       description:
-        - Spearheaded groundbreaking experiment focused on harnessing smartphone sensors for advanced diagnostic applications.
+        - Worked on a groundbreaking experiment focused on harnessing smartphone sensors for advanced diagnostic applications.
         - Applied cutting-edge statistical data analysis and signal processing to refine vital physiological data from sensor inputs.
         - Demonstrated exceptional research acumen by extensively reviewing and synthesizing insights from scientific papers
-
-    - title: Biomedical Engineering Technologist
+    - title: Biomedical Service Engineer
       institution: Sterling Hospitals (Ahmedabad, India)
-      year: "June - Sept. '19"
+      year: "June '20 - Jul. '21"
       description:
         - Conducted inspections and testing of various diagnostic, therapeutic, and life support medical equipment.
         - Performed preventive maintenance and periodic checking of devices, ensuring safety and usability.
@@ -67,6 +71,14 @@
 - title: Projects
   type: time_table
   contents:
+    - title: Lower Limb Exoskeleton for Kids with Scissoring Gait
+      year: 2023
+      description: "A therapeutic approach for scissoring gait in kids with cerebral palsy."
+
+    - title: Astounding Interaction between Statistics and Human Biophysics
+      year: 2022
+      description: "Relation of Benford's Law with human ECG waveforms."
+      
     - title: Multi-parameter Monitoring Using Smartphones
       year: 2022
       description: "This project was my MTech. thesis."
@@ -103,4 +115,4 @@
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Playing Chess, Solving Rubik's Cube, and Playing Piano."
+    - "<u>Hobbies:</u> Chess, Rubik's Cubes, and Piano."
