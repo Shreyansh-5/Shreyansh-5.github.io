@@ -5,7 +5,15 @@
       value: Shreyansh Sheth
     - name: Profile Summary
       value: | 
-        Dynamic professional with dual master’s degrees in Biomedical Engineering and Regulatory Affairs, with a robust track record in Regulatory Affairs, Biomedical Research, and Project Management. Proven experience in leading teams, navigating complex research and regulatory landscapes, and delivering exceptional results. Committed to leveraging expertise to advance medical solutions.
+        Dynamic professional with dual master’s degrees in Biomedical Engineering and Regulatory Affairs, offering a robust track record in Biomedical Research, Regulatory Affairs, and Risk Management. Proven expertise driving innovation in medical technology and in navigating complex regulatory landscapes. Eager to leverage my skills and experience to advance groundbreaking medical solutions.
+
+- title: Summary of Skills
+  type: list
+  contents:
+    - "<u>Technical:</u> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, NI LabVIEW, Arduino, Keil μVision, MPLAB, Advanced Statistics"
+    - "<u>Programming:</u> MATLAB, Python, R, C, LabVIEW"
+    - "<u>Non-Tech.:</u> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance, Project Management, Agile, 6 Sigma"
+
 - title: Education
   type: time_table
   contents:
@@ -108,13 +116,6 @@
       items: 
         - "Human Anatomy Specialization"
 
-- title: Skills
-  type: list
-  contents:
-    - "<u>Technical:</u> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, Arduino, Keil μVision, MPLAB"
-    - "<u>Programming:</u> MATLAB, Python, R, C, LabVIEW"
-    - "<u>RA/QA:</u> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance"
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -125,4 +126,4 @@
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Chess, Rubik's Cubes, and Piano."
+    - "<u>Hobbies:</u> Reding, Chess, and Rubik's Cubes."
