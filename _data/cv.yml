@@ -108,6 +108,13 @@
       items: 
         - "Human Anatomy Specialization"
 
+- title: Skills
+  type: list
+  contents:
+    - "<u>Technical:</u> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, Arduino, Keil μVision, MPLAB"
+    - "<u>Programming:</u> MATLAB, Python, R, C, LabVIEW"
+    - "<u>RA/QA:</u> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance"
+
 - title: Academic Interests
   type: nested_list
   contents:
@@ -115,10 +122,7 @@
     - title: Rehabilitation Engineering
     - title: Embedded Systems
 
-- title: Skills
+- title: Other Interests
   type: list
   contents:
-    - title: Technical: Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, Arduino, Keil μVision, MPLAB
-    - title: Programming: MATLAB, Python, R, C, LabVIEW
-    - title: Regulatory: Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health
-Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance
+    - "<u>Hobbies:</u> Chess, Rubik's Cubes, and Piano."
