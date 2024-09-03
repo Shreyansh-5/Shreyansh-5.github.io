@@ -10,9 +10,9 @@
 - title: Summary of Skills
   type: list
   contents:
-    - "<u>Technical:</u> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, NI LabVIEW, Arduino, Keil μVision, MPLAB, Advanced Statistics"
-    - "<u>Programming:</u> MATLAB, Python, R, C, LabVIEW"
-    - "<u>Non-Tech.:</u> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance, Project Management, Agile, 6 Sigma"
+    - "<b><u>Technical:</u></b> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, NI LabVIEW, Arduino, Keil μVision, MPLAB, Advanced Statistics"
+    - "<b><u>Programming:</u></b> MATLAB, Python, R, C, LabVIEW"
+    - "<b><u>Non-Tech.:</u></b> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance, Project Management, Agile, 6 Sigma"
 
 - title: Education
   type: time_table
@@ -119,9 +119,9 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Neuroscience
-    - title: Rehabilitation Engineering
-    - title: BCI
+    - title: Neuro-rehabilitation
+    - title: Brain-Computer Interfacing
+    - title: Human-Machine Interfacing
 
 - title: Hobbies
   type: list
