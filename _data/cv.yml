@@ -41,7 +41,7 @@
         - Designed Consent Forms (ICFs), CRFs, and IB in compliance with ISO 14155 & ICH guidelines, enhancing the submission efficiency.
     - title: Regulatory Affairs Specialist (intern)
       institution: Neuro-Spinal Innovation Inc. (Mississauga, ON)
-      year: "June '22 - Mar. '23"
+      year: "June '22 - Aug. '22"
       description:
         - Spearheaded comprehensive risk management and facilitated TÜV testing, ensuring compliance with ISO and IEC standards for medical devices, which enhanced product safety and reliability by about 20%.
         - Developed and implemented various test methods for the device, meticulously crafted case reports, and authored Standard Operating Procedures (SOPs) to streamline operations and ensure regulatory compliance.
@@ -98,6 +98,9 @@
 - title: Certification
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - "BCI and Neurotechnology Spring School" 
     - year: 2022
       items: 
         - "Tri-Council Policy Statement (TCPS-2)" 
@@ -112,7 +115,4 @@
     - title: Rehabilitation Engineering
     - title: Embedded Systems
 
-- title: Other Interests
-  type: list
-  contents:
-    - "<u>Hobbies:</u> Chess, Rubik's Cubes, and Piano."
+c
