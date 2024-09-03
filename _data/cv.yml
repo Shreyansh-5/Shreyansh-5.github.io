@@ -115,4 +115,10 @@
     - title: Rehabilitation Engineering
     - title: Embedded Systems
 
-c
+- title: Skills
+  type: list
+  contents:
+    - title: Technical: Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, Arduino, Keil μVision, MPLAB
+    - title: Programming: MATLAB, Python, R, C, LabVIEW
+    - title: Regulatory: Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health
+Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance
