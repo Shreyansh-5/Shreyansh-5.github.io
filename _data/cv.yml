@@ -17,19 +17,19 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science in Regulatory Affairs (Drugs, Biologics, and Medical Devices)
+    - title: Master of Science in Regulatory Affairs
       gpa: 3.29 GPA
-      institution: Northeastern University, Toronto, Canada
+      institution: Northeastern University
       year: "Sept.'21 - July '23"
 
     - title: Master of Technology in Biomedical Engineering
       gpa: 3.56 GPA
-      institution: Vellore Institute of Technology, Vellore, India
+      institution: Vellore Institute of Technology
       year: "July '20 - July '22"
 
     - title: Bachelor of Engineering in Biomedical Engineering
       gpa: 3.08 GPA
-      institution: Government Engineering College, Gandhinagar, India
+      institution: Gujarat Technological University
       year: "Aug. '16 - Aug. '20"
 
 
