@@ -5,27 +5,30 @@
       value: Shreyansh Sheth
     - name: Profile Summary
       value: | 
-        Dynamic professional with dual master’s degrees in Biomedical Engineering and Regulatory Affairs, offering a robust track record in Biomedical Research, Regulatory Affairs, and Risk Management. Proven expertise driving innovation in medical technology and in navigating complex regulatory landscapes. Eager to leverage my skills and experience to advance groundbreaking medical solutions.
+        Dynamic professional with dual master’s degrees in Biomedical Engineering and Regulatory Affairs, with a robust track record in Regulatory Affairs, Neuroscience, and Rehabilitation Research. Proven experience in leading teams, navigating complex research and regulatory landscapes, and delivering exceptional results. Committed to leveraging expertise to advance healthcare solutions with a high standard of integrity and ethics.
 
 - title: Summary of Skills
   type: list
   contents:
     - "<b><u>Technical:</u></b> Machine Learning, Neuroscience, Embedded Systems, Circuit Design Suite, NI Multisim, NI LabVIEW, Arduino, Keil μVision, MPLAB, Advanced Statistics"
     - "<b><u>Programming:</u></b> MATLAB, Python, R, C, LabVIEW"
-    - "<b><u>Non-Tech.:</u></b> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance, Project Management, Agile, 6 Sigma"
+    - "<b><u>Non-Tech.:</u></b> Regulatory Documentation, Risk Management, Labeling, QA/QC, V&V, Auditing, CAPA, QMS, US FDA CFR, Health Canada, Canadian MDR, EMA, EU MDR, MDSAP, ISO 13485, ISO 14971, ISO 24971, IEC 60601, ISO 14155, ICH, GCP, GMP, TCPS-2, Clinical Trials, Vigilance, Project Management, Agile, 6 Sigma"
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science in Regulatory Affairs
+    - title: Master of Science in Regulatory Affairs (Drugs, Biologics, and Medical Devices)
+      gpa: 3.29 GPA
       institution: Northeastern University, Toronto, Canada
       year: "Sept.'21 - July '23"
 
     - title: Master of Technology in Biomedical Engineering
+      gpa: 3.56 GPA
       institution: Vellore Institute of Technology, Vellore, India
       year: "July '20 - July '22"
 
     - title: Bachelor of Engineering in Biomedical Engineering
+      gpa: 3.08 GPA
       institution: Government Engineering College, Gandhinagar, India
       year: "Aug. '16 - Aug. '20"
 
@@ -33,41 +36,41 @@
 - title: Relevant Experience
   type: time_table
   contents:
-    - title: Printing and Quality Assistant 
-      institution: Viva Healthcare (Toronto, ON)
-      year: "Mar. - Dec. '23"
+    - title: Events Coordinator 
+      institution: Revol Events (Toronto, ON)
+      year: "Jan. '22 - Present"
       description:
-        - Conducted quality control checks, implementing adjustments to uphold the highest standards of accuracy and consistency.
-        - Managed the logistics of incoming and outgoing shipments, optimizing packaging and labeling processes to guarantee efficient and accurate distribution.
-        - Assisted in setting up and operating systems, ensuring precise material loading and fine-tuning settings according to protocols, thereby achieving superior quality and minimizing waste.    
+        - Planned and executed several events, managing all logistics and timelines to ensure seamless experiences.
+        - Worked with cross-functional teams, fostering collaboration and effective problem-solving.
+        - Maintained strong client relationships, delivering customized solutions with a high satisfaction rate.    
     - title: Regulatory Affairs Team Leader (co-op)
-      institution: Breegi Scientific Inc. (Boston, US)
+      institution: Breegi Scientific Inc. (Boston, MA, USA)
       year: "Apr. - July '23"
       description:
         - Led a team of five to expedite Phase-I clinical trials for a neonatal incubator, significantly shortening the submission timeline.
         - Leveraged exceptional project management and coordination skills to ensure seamless project execution and timely completion.
-        - Designed Consent Forms (ICFs), CRFs, and IB in compliance with ISO 14155 & ICH guidelines, enhancing the submission efficiency.
+        - Designed Consent Forms (ICFs), CRFs, and IB in compliance with ISO 14155 and ICH guidelines, enhancing the submission efficiency.
     - title: Regulatory Affairs Specialist (intern)
       institution: Neuro-Spinal Innovation Inc. (Mississauga, ON)
       year: "June '22 - Aug. '22"
       description:
         - Spearheaded comprehensive risk management and facilitated TÜV testing, ensuring compliance with ISO and IEC standards for medical devices, which enhanced product safety and reliability by about 20%.
         - Developed and implemented various test methods for the device, meticulously crafted case reports, and authored Standard Operating Procedures (SOPs) to streamline operations and ensure regulatory compliance.
-        - Maintained up-to-date Technical Files and Design Dossiers, thereby leveling-up regulatory approval processes.
+        - Maintained up-to-date technical files and design dossiers, thereby levelling up regulatory approval processes.
     - title: Teaching Assistant and Peer Mentor
       institution: Northeastern University (Toronto, ON)
       year: "Sept. '21 - Apr. '22"
       description:
-        - Mentored and supported graduate students in academic and social transitions.
-        - Managed administrative tasks, including scheduling, event coordination, and record-keeping.
-        - Acted as the Class Delegate, facilitating communication between professor and students.
-    - title: Research Assistant (contract)
+        - Provided guidance and support to several graduate students, assisting with academic and social adjustments.
+        - Oversaw administrative responsibilities, including scheduling, coordinating events, and maintaining records.
+        - Acted as a liaison, fostering communication between professor and students.
+    - title: Research Assistant
       institution: International Institute of Information Technology (Raipur, India)
       year: "May - Aug. '21"
       description:
-        - Worked on a groundbreaking experiment focused on harnessing smartphone sensors for advanced diagnostic applications.
+        - Spearheaded experiment focused on harnessing smartphone sensors for advanced diagnostic applications.
         - Applied cutting-edge statistical data analysis and signal processing to refine vital physiological data from sensor inputs.
-        - Demonstrated exceptional research acumen by extensively reviewing and synthesizing insights from scientific papers
+        - Performed data collection by extensively reviewing and synthesizing insights from several scientific papers.
     - title: Biomedical Service Engineer
       institution: Sterling Hospitals (Ahmedabad, India)
       year: "June '20 - Jul. '21"
@@ -95,7 +98,7 @@
       year: 2021
       description: "Presented at ISC-2021 Conference."
 
-    - title: Analysis of P300 ERPs and its PSD
+    - title: Analysis of P300 ERPs and its PSD a review
       year: 2020
       description: "Presented at ICAICTSEE-2020 Conference."
 
@@ -119,8 +122,8 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Neuro-rehabilitation
-    - title: Brain-Computer Interfacing
+    - title: Neuroscience and Neurotechnology
+    - title: Rehabilitation Engineering
     - title: Human-Machine Interfacing
 
 - title: Hobbies
